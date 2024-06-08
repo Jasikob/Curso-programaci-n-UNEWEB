@@ -13,22 +13,9 @@
         let suma_bebidas = bebida1 + bebida2;
         let total_cena = suma_comidas + suma_bebidas;
 
-        total = prompt("Elige 1 para el monto total de las comidas, 2 para el total de bebidas y 3 para el total completo de la cena");
-      
-        if (total > 0 && total < 4){
-            if (total == 1){
-                alert("Comida 1: " +comida1+ " $, Comida 2: " +comida2+ " $");
-                alert("Total de las comidas: " +suma_comidas+ " $");
-            }else if (total == 2){
-                alert("Bebida 1: " +bebida1+ " $, Bebida 2: " +bebida2+ " $");
-                alert("Total de las bebidas: " +suma_bebidas+ " $");
-            }else if (total == 3){
-                alert("Total de la cena: " +total_cena+ " $");
-            }
-        }else{
-            alert("Error. Ingrese una opcion válida.");
-        }
-        
+        console.log("El total de la comida es: " +suma_comidas+ " $");
+        console.log("El total de la bebida es: " +suma_bebidas+ " $");
+        console.log("El total de la cuenta es: " +total_cena+ " $");
     </script>
 </head>
 <body>
