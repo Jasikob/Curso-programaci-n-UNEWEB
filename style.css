@@ -1,0 +1,41 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    height: 40px;
+    width: 40px;
+    border: none;
+}
+
+h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+#curso_img{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    padding-left: 60px;
+    padding-bottom: 40px;
+}
+
+p{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 100px;
+}
