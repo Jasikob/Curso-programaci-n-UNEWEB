@@ -1,18 +1,4 @@
-"""
-Deseas crear un programa que te ayude a organizar tus eventos y tareas. Para esto, tu
-programa debe:
-- Solicitar por teclado el nombre del evento a agendar
-- Mostrar ordenadamente los meses del año para que el usuario seleccione el mes del
-evento
-- Mostrar ordenadamente los días del mes para que el usuario seleccione el día del
-evento
-- Mostrar ordenadamente las 24 horas del día para que el usuario seleccione la hora del
-evento (en este programa, cada evento tendrá una duración de una hora)
-- Verificar si ese horario ya fue ocupado anteriormente por otro evento
-- Notificar que el evento fue creado con éxito o que el horario seleccionado no está
-disponible. En caso de que se de lo último, deberá solicitarse una nueva fecha
-- Debe existir la opción de mostrar todos los eventos agendados
-"""
+
 def pedir_evento():
     evento = input("Ingrese el nombre del evento a agendar: ")
     return evento
