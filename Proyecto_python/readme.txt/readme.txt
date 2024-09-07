@@ -1,4 +1,4 @@
-<h1>Proyecto Python UNEWEB<h1>
+<h1>Proyecto Python UNEWEB</h1>
 App organizadora de eventos
 El proyecto consiste en una app que te ayuda a generar y organizar eventos.
 Funciones de la app:
