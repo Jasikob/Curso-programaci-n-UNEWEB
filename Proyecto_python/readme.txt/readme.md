@@ -1,7 +1,7 @@
 #Proyecto Python UNEWEB
-##App organizadora de eventos
-###El proyecto consiste en una app que te ayuda a generar y organizar eventos.
-####Funciones de la app:
+App organizadora de eventos
+El proyecto consiste en una app que te ayuda a generar y organizar eventos.
+Funciones de la app:
 1- Solicita el nombre del evento a agendar.
 2- Muestra los meses del año para que el usuario pueda seleccionar el mes del evento.
 3- Muestra los días del mes para que el usuario pueda seleccionar el día del evento.
